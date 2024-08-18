@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="556.0" prefWidth="413.0" stylesheets="@../styles/global.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dietgenerator.AlimentSelectorWindowController">
+   <children>
+      <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="370.0" text="لیست خوراکی ها">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="59.0" prefWidth="206.0">
+         <children>
+            <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="51.0" text="جستجو" />
+            <TextField fx:id="searchField" onKeyTyped="#search" prefHeight="30.0" prefWidth="223.0" />
+         </children>
+      </VBox>
+      <VBox prefHeight="47.0" prefWidth="370.0">
+         <children>
+            <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="51.0" text="فیلتر" />
+            <FlowPane hgap="20.0" prefHeight="27.0" prefWidth="370.0" vgap="5.0">
+               <children>
+                  <CheckBox fx:id="breakfastFilterChckBx" mnemonicParsing="false" onAction="#search" text="صبحانه" />
+                  <CheckBox fx:id="lunchFilterChckBx" mnemonicParsing="false" onAction="#search" text="ناهار" />
+                  <CheckBox fx:id="dinnerFilterChckBx" mnemonicParsing="false" onAction="#search" text="شام" />
+                  <CheckBox fx:id="snackFilterChckBx" mnemonicParsing="false" onAction="#search" text="میان وعده" />
+               </children>
+            </FlowPane>
+         </children>
+      </VBox>
+      <VBox prefHeight="234.0" prefWidth="370.0">
+         <children>
+            <ListView fx:id="searchList" prefHeight="229.0" prefWidth="370.0" />
+         </children>
+      </VBox>
+      <VBox prefHeight="32.0" prefWidth="370.0">
+         <children>
+            <Label fx:id="servingSizeLbl" nodeOrientation="RIGHT_TO_LEFT" prefHeight="18.0" prefWidth="72.0" text="تعداد وعده" visible="false" />
+            <TextField fx:id="numOfServingsTxtField" visible="false" />
+         </children>
+      </VBox>
+      <VBox prefHeight="27.0" prefWidth="370.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#selectAliment" text="انتخاب" />
+         </children>
+      </VBox>
+      <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="370.0" text="خوراکی مورد نظر را پیدا نکردید؟ ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <VBox prefHeight="27.0" prefWidth="370.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#swtichToAddNewAliment" prefHeight="26.0" prefWidth="144.0" text="اضافه کردن خوراکی" />
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

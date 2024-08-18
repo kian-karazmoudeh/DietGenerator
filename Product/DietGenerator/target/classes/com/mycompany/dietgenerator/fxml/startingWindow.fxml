@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="295.0" prefWidth="579.0" spacing="20.0" stylesheets="@../styles/global.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dietgenerator.StartingWindowController">
+   <children>
+      <Label prefHeight="20.0" prefWidth="114.0" text="برنامه غذای">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Button onAction="#swtichToDietCreationWindow" prefHeight="45.0" prefWidth="188.0" text="ایجاد یک برنامه غذایی جدید" />
+      <Button onAction="#openADietFile" prefHeight="45.0" prefWidth="188.0" text="باز کردن یک فایل diet" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

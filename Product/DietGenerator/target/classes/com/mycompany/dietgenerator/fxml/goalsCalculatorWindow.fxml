@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="393.0" prefWidth="464.0" spacing="10.0" stylesheets="@../styles/global.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dietgenerator.GoalsCalculatorWindowController">
+   <children>
+      <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="589.0" text="حسابگر اهداف">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="316.0" prefWidth="243.0" spacing="10.0">
+               <children>
+                  <VBox prefHeight="55.0" prefWidth="243.0">
+                     <children>
+                        <Label text="جنسیت" />
+                        <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" vgap="5.0">
+                           <children>
+                              <RadioButton fx:id="rBtnFemale" mnemonicParsing="false" text="زن">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="gender" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="rBtnMale" mnemonicParsing="false" text="مرد" toggleGroup="$gender" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="55.0" prefWidth="243.0">
+                     <children>
+                        <Label text="هدف شما" />
+                        <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" vgap="5.0">
+                           <children>
+                              <RadioButton fx:id="rBtnMildWeightLoss" mnemonicParsing="false" text="کاهش وزن ملایم">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="goals" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="rBtnWeightLoss" mnemonicParsing="false" text="کاهش وزن" toggleGroup="$goals" />
+                              <RadioButton fx:id="rBtnExtremeWeightLoss" mnemonicParsing="false" text="کاهش وزن شدید" toggleGroup="$goals" />
+                              <RadioButton fx:id="rBtnWeightMaintenance" mnemonicParsing="false" text="تثبیت" toggleGroup="$goals" />
+                              <RadioButton fx:id="rBtnMildWeightGain" mnemonicParsing="false" text="افزایش وزن خفیف" toggleGroup="$goals" />
+                              <RadioButton fx:id="rBtnWeightGain" mnemonicParsing="false" text="افزایش وزن" toggleGroup="$goals" />
+                              <RadioButton fx:id="rBtnExtremeWeightGain" mnemonicParsing="false" text="افزایش وزن سریع" toggleGroup="$goals" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="55.0" prefWidth="243.0">
+                     <children>
+                        <Label text="فعالیت روزانه" />
+                        <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" vgap="5.0">
+                           <children>
+                              <RadioButton fx:id="rBtnActivityLvlLight" mnemonicParsing="false" text="سبک: 3-1 تمرین در هفته">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="activity" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="rBtnActivityLvlModerate" mnemonicParsing="false" text="متوسط: 5-4 تمرین در هفته" toggleGroup="$activity" />
+                              <RadioButton fx:id="rBtnActivityLvlActive" mnemonicParsing="false" text="فعال: تمرین روزانه" toggleGroup="$activity" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="316.0" prefWidth="254.0" spacing="10.0">
+               <children>
+                  <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="55.0" prefWidth="202.0">
+                     <children>
+                        <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="51.0" text="قد (cm)" />
+                        <TextField fx:id="heightTextField" prefHeight="30.0" prefWidth="182.0" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="55.0" prefWidth="202.0">
+                     <children>
+                        <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="51.0" text="سن" />
+                        <TextField fx:id="ageTextField" prefHeight="30.0" prefWidth="182.0" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="55.0" prefWidth="202.0">
+                     <children>
+                        <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="17.0" prefWidth="51.0" text="وزن (kg)" />
+                        <TextField fx:id="weightTextField" prefHeight="30.0" prefWidth="182.0" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <Button mnemonicParsing="false" onAction="#calculate" prefHeight="26.0" prefWidth="90.0" text="محاسبه" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

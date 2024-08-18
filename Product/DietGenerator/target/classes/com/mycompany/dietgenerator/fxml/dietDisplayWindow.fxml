@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="736.0" stylesheets="@../styles/global.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dietgenerator.DietDisplayWindowController">
+   <children>
+      <MenuBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="26.0" prefWidth="813.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="فایل">
+               <items>
+                  <MenuItem fx:id="saveBtn" mnemonicParsing="false" onAction="#save" text="ذخیره" />
+                  <MenuItem mnemonicParsing="false" onAction="#saveAsPDF" text="ذخیره به عنوان PDF" />
+                  <MenuItem mnemonicParsing="false" onAction="#saveAsDiet" text="ذخیره به عنوان فایل diet" />
+                  <MenuItem mnemonicParsing="false" onAction="#close" text="خروج" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <VBox fx:id="dietTable" alignment="TOP_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="486.0">
+         <children>
+            <HBox fx:id="breakfastHBox" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="100.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="370.0" text="صبحانه">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <ListView fx:id="breakfast" prefWidth="608.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="100.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="376.0" text="میان وعده">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <ListView fx:id="snack" prefWidth="609.0" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="lunchHBox" maxHeight="1.7976931348623157E308" prefWidth="200.0" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="100.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="498.0" text="ناهار">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <ListView fx:id="lunch" maxHeight="1.7976931348623157E308" prefWidth="610.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="100.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="449.0" text="شام">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <ListView fx:id="dinner" prefWidth="610.0" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>

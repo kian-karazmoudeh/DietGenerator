@@ -1,0 +1,120 @@
+@options
+@argfile
+-classpath
+'C:/Users/kiank/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-win.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-win.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar;C:/Users/kiank/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-win.jar;C:/Users/kiank/.m2/repository/org/apache/pdfbox/pdfbox/3.0.0/pdfbox-3.0.0.jar;C:/Users/kiank/.m2/repository/org/apache/pdfbox/pdfbox-io/3.0.0/pdfbox-io-3.0.0.jar;C:/Users/kiank/.m2/repository/org/apache/pdfbox/fontbox/3.0.0/fontbox-3.0.0.jar;C:/Users/kiank/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/kiank/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator;C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/FileManager;C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DietGenerator 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'DietGenerator 1.0-SNAPSHOT API'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/AddNewAlimentWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/AlimentSelectorWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/App.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/DietCreationWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/DietDisplayWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/GoalsCalculatorWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/Main.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/MealOptionEditorWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/StartingWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/Validation.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/com/mycompany/dietgenerator/ViewAlimentInfoWindowController.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/FileManager/FileManager.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Aliment.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Breakfast.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Chromosome.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Crossover.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Diet.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Dinner.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/FitnessCalculator.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Lunch.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Meal.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/MealOption.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Mutator.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/ParentSelector.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/PopulationInitializer.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/Snack.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/SurvivorSelector.java'
+'C:/Users/kiank/Documents/IBDP/Computer science/Internal Assessment/CS IA Students Files/kxg708_Computer_Science_IA/Product/DietGenerator/src/main/java/GeneticAlgorithm/TournamentSelector.java'
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar = 1687959597515
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar = 1687959602390
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar = 1687959596977
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar = 1687959607785
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar = 1687959597515
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar = 1687959599287
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar = 1687959598116
+C:\Users\kiank\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar = 1687959598824
+C:\Users\kiank\.m2\repository\org\apache\pdfbox\pdfbox\3.0.0\pdfbox-3.0.0.jar = 1705759225295
+C:\Users\kiank\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.0\pdfbox-io-3.0.0.jar = 1705759257727
+C:\Users\kiank\.m2\repository\org\apache\pdfbox\fontbox\3.0.0\fontbox-3.0.0.jar = 1705759240492
+C:\Users\kiank\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1705758704293
+C:\Users\kiank\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar = 1705820449037
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\AddNewAlimentWindowController.java = 1710655771978
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\AlimentSelectorWindowController.java = 1710655845649
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\App.java = 1710655905844
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\DietCreationWindowController.java = 1710655903783
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\DietDisplayWindowController.java = 1710347798366
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\GoalsCalculatorWindowController.java = 1710347882864
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\Main.java = 1710347899880
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\MealOptionEditorWindowController.java = 1710347939128
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\StartingWindowController.java = 1710347950298
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\Validation.java = 1710348004673
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator\ViewAlimentInfoWindowController.java = 1710348016194
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\com\mycompany\dietgenerator = 1710127815948
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\FileManager\FileManager.java = 1710348055541
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\FileManager\PersianShaping.java = 1705923828000
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\FileManager = 1708614039307
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Aliment.java = 1710347296261
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Breakfast.java = 1710347403496
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Chromosome.java = 1710347419449
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Crossover.java = 1710347435457
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Diet.java = 1710347480838
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Dinner.java = 1710347498264
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\FitnessCalculator.java = 1710348385264
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Lunch.java = 1710347603138
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Meal.java = 1710347614127
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\MealOption.java = 1710347624045
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Mutator.java = 1710348902702
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\ParentSelector.java = 1710347645997
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\PopulationInitializer.java = 1710655613707
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\Snack.java = 1710347669057
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\SurvivorSelector.java = 1710655659968
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm\TournamentSelector.java = 1710655717118
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\src\main\java\GeneticAlgorithm = 1710346890276
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\allclasses-index.html = 1710656048219
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\allpackages-index.html = 1710656048234
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\constant-values.html = 1710656047942
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\element-list = 1710656047845
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\help-doc.html = 1710656048294
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\index-all.html = 1710656048279
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\index.html = 1710656048188
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\jquery-ui.overrides.css = 1710656048323
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\member-search-index.js = 1710656048246
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\module-search-index.js = 1710656048234
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\overview-summary.html = 1710656048279
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\overview-tree.html = 1710656048180
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\package-search-index.js = 1710656048234
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\script.js = 1710656048299
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\search.js = 1710656048305
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\serialized-form.html = 1710656047987
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\stylesheet.css = 1710656048298
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\tag-search-index.js = 1710656048246
+C:\Users\kiank\Documents\IBDP\Computer science\Internal Assessment\CS IA Students Files\kxg708_Computer_Science_IA\Product\DietGenerator\target\site\apidocs\type-search-index.js = 1710656048234
