@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/global.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dietgenerator.ViewAlimentInfoWindowController">
+   <children>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="172.0" spacing="20.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="146.0" text="اطلاعات تغذیه ای">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLbl" text="Label" />
+            <Label fx:id="proteinLbl" text="Label" />
+            <Label fx:id="carbLbl" text="Label" />
+            <Label fx:id="fatLbl" text="Label" />
+            <Label fx:id="servingSizeLbl" text="Label" />
+            <Label fx:id="caloriesPerServingLbl" text="Label" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+      <PieChart fx:id="pieChart" legendVisible="false" prefHeight="400.0" prefWidth="333.0" />
+   </children>
+</HBox>
